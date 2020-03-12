@@ -539,7 +539,6 @@ else()
   message(STATUS "Using static fmt from Externals")
   add_subdirectory(Externals/fmt EXCLUDE_FROM_ALL)
 endif()
-add_subdirectory(Externals/glslang)
 add_subdirectory(Externals/imgui)
 
 find_package(pugixml)
